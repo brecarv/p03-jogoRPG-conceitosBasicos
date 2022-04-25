@@ -1,6 +1,6 @@
 namespace p03_jogoRPG.src.Entities
 {
-  public class Hero
+  public abstract class Hero
   {
     public Hero() { }
     public Hero(string Name, int Level, string HeroType)

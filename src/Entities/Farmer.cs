@@ -10,11 +10,15 @@ namespace p03_jogoRPG.src.Entities
     }
     public override string Attack()
     {
-      return this.Name + " atacou com seus cavalos.";
+      return this.Name + " atacou usando seus cavalos.";
     }
-    public override string Attack(int bonus)
+    public override string Attack(int Bonus)
     {
-      return this.Name + " atacou com seus cavalos.";
+      if (Bonus > 6)
+      {
+        return this.Name + " atacou com bonus full usando seus cavalos.";
+      }
+      return this.Name + " atacou com bonus padrão usando seus cavalos.";
     }
   }
 }
