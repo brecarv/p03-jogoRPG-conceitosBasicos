@@ -1,8 +1,8 @@
 namespace p03_jogoRPG.src.Entities
 {
-  public class Arus
+  public class Hero
   {
-    public Arus(string Name, int Level, string HeroType)
+    public Hero(string Name, int Level, string HeroType)
     {
       this.Name = Name;
       this.Level = Level;
