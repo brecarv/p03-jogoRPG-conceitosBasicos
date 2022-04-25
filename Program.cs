@@ -8,6 +8,7 @@ class Program
   {
     Arus heroA = new Arus("brecarv", 25, "Raider");
 
-    WriteLine($"O héroi {heroA.Name} é da classe {heroA.HeroType} e está no nível {heroA.Level}.");
+    WriteLine($"O héroi {heroA.Name} está no nível {heroA.Level} e é da classe {heroA.HeroType}");
+    WriteLine(heroA.ToString());
   }
 }

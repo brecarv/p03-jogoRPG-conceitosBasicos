@@ -11,5 +11,10 @@ namespace p03_jogoRPG.src.Entities
     public string Name;
     public int Level;
     public string HeroType;
+
+    public override string ToString()
+    {
+      return "O héroi " + this.Name + " está no nível " + this.Level + " e é da classe " + this.HeroType;
+    }
   }
 }
