@@ -20,7 +20,11 @@ namespace p03_jogoRPG.src.Entities
 
     public virtual string Attack()
     {
-      return this.Name + " atacou com a sua espada.";
+      return this.Name + " atacou.";
+    }
+    public virtual string Attack(int bonus)
+    {
+      return this.Name + " atacou com bônus.";
     }
   }
 }
