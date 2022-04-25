@@ -16,5 +16,10 @@ namespace p03_jogoRPG.src.Entities
     {
       return "O héroi " + this.Name + " está no nível " + this.Level + " e é da classe " + this.HeroType;
     }
+
+    public string Attack()
+    {
+      return this.Name + " atacou com a sua espada.";
+    }
   }
 }
